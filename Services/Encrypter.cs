@@ -10,9 +10,9 @@ namespace Ping_Monitor
 {
     class Encrypter
     {
-        static readonly string PasswordHash = "p@$$wOrd";
-        static readonly string SaltKey = "s@lTkey_";
-        static readonly string VIKey = "@3B2c6D4f9F5g7H0";
+        static readonly string PasswordHash = "________";
+        static readonly string SaltKey = "________";
+        static readonly string VIKey = "________________";
 
         public static string Encrypt(string plainText)
         {
